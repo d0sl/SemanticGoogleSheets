@@ -1,0 +1,928 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cb1026e9-1710-4c0c-a4e9-7ec7cd1e2d4b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/SemanticGoogleSheets_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gav/semanticGoogleSheets/SemanticHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gumirov/d0sl/benchmark/AIBenchmark.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gumirov/d0sl/benchmark/BenchmarkDSL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gumirov/d0sl/benchmark/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SemanticGoogleSheets/com/gav/semanticGoogleSheets/main$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SemanticGoogleSheets/com/gav/semanticGoogleSheets/main$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SemanticGoogleSheets/com/gav/semanticGoogleSheets/main$1$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SemanticGoogleSheets/com/gav/semanticGoogleSheets/main$1$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SemanticGoogleSheets/com/gav/semanticGoogleSheets/main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SemanticGoogleSheets/com/gav/semanticGoogleSheets/main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SemanticGoogleSheets/com/gav/semanticGoogleSheets/main$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SemanticGoogleSheets/com/gav/semanticGoogleSheets/main$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SemanticGoogleSheets/com/gav/semanticGoogleSheets/main$3$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SemanticGoogleSheets/com/gav/semanticGoogleSheets/main$3$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SemanticGoogleSheets/com/gav/semanticGoogleSheets/main$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SemanticGoogleSheets/com/gav/semanticGoogleSheets/main$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SemanticGoogleSheets/com/gav/semanticGoogleSheets/main$4$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SemanticGoogleSheets/com/gav/semanticGoogleSheets/main$4$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SemanticGoogleSheets/com/gav/semanticGoogleSheets/main$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SemanticGoogleSheets/com/gav/semanticGoogleSheets/main$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SemanticGoogleSheets/com/gav/semanticGoogleSheets/main$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SemanticGoogleSheets/com/gav/semanticGoogleSheets/main$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SemanticGoogleSheets/com/gav/semanticGoogleSheets/main$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SemanticGoogleSheets/com/gav/semanticGoogleSheets/main$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SemanticGoogleSheets/com/gav/semanticGoogleSheets/main$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SemanticGoogleSheets/com/gav/semanticGoogleSheets/main$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SemanticGoogleSheets/com/gav/semanticGoogleSheets/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SemanticGoogleSheets/com/gav/semanticGoogleSheets/main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SemanticGoogleSheets/org/d0sl/machine/LocalSemanticMachine$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SemanticGoogleSheets/org/d0sl/machine/LocalSemanticMachine$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SemanticGoogleSheets/org/d0sl/machine/LocalSemanticMachine$Calculator$1RangeCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SemanticGoogleSheets/org/d0sl/machine/LocalSemanticMachine$Calculator$1RangeCalculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SemanticGoogleSheets/org/d0sl/machine/LocalSemanticMachine$Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SemanticGoogleSheets/org/d0sl/machine/LocalSemanticMachine$Calculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SemanticGoogleSheets/org/d0sl/machine/LocalSemanticMachine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SemanticGoogleSheets/org/d0sl/machine/LocalSemanticMachine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gav/semanticGoogleSheets/ArrayListDSL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gav/semanticGoogleSheets/ArrayListDSL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gav/semanticGoogleSheets/HashMapDSL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gav/semanticGoogleSheets/HashMapDSL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gav/semanticGoogleSheets/Row.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gav/semanticGoogleSheets/Row.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gav/semanticGoogleSheets/SemanticGoogleSheetsDSL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gav/semanticGoogleSheets/SemanticGoogleSheetsDSL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gav/semanticGoogleSheets/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gav/semanticGoogleSheets/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/d0sl/domain/DomainLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/d0sl/domain/DomainLibrary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/d0sl/machine/LocalSemanticMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/d0sl/machine/LocalSemanticMachine.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/gav/semanticGoogleSheets/main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1857#1858#0" expanded="true" />
+                <element signature="e#1884#1885#0" expanded="true" />
+                <element signature="e#1929#1930#0" expanded="true" />
+                <element signature="e#1957#1958#0" expanded="true" />
+                <element signature="e#53124#53125#0" expanded="true" />
+                <element signature="e#53157#53158#0" expanded="true" />
+                <element signature="e#53206#53207#0" expanded="true" />
+                <element signature="e#53238#53239#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/gav/semanticGoogleSheets/SemanticGoogleSheetsDSL.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="501">
+              <caret line="147" column="20" selection-start-line="147" selection-start-column="20" selection-end-line="147" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#5871#5872#0" expanded="true" />
+                <element signature="e#5919#5920#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/d0sl/domain/DomainLibrary.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="536">
+              <caret line="179" column="30" selection-start-line="179" selection-start-column="30" selection-end-line="179" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/d0sl/machine/LocalSemanticMachine.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1602">
+              <caret line="148" column="43" selection-start-line="148" selection-start-column="43" selection-end-line="148" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>BaseFunction</find>
+      <find>add</find>
+      <find>List</find>
+      <find>get</find>
+      <find>say</find>
+      <find>do if not</find>
+      <find>create</find>
+      <find>parse</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>DomainFunction</replace>
+      <replace>ArrayList</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/d0sl/model/expression/NumericConstant.java" />
+        <option value="$PROJECT_DIR$/src/org/d0sl/model/expression/NumericConstant.java" />
+        <option value="$PROJECT_DIR$/src/org/d0sl/model/expression/List.java" />
+        <option value="$PROJECT_DIR$/src/org/d0sl/examples/chess/ChessDSL.java" />
+        <option value="$PROJECT_DIR$/src/org/d0sl/xml/XMLSerializer.java" />
+        <option value="$PROJECT_DIR$/src/org/d0sl/machine/SemanticExceptionImpl.java" />
+        <option value="$PROJECT_DIR$/src/org/d0sl/machine/SemanticException.java" />
+        <option value="$PROJECT_DIR$/src/org/d0sl/machine/LocalSemanticEnvironment.java" />
+        <option value="$PROJECT_DIR$/src/org/d0sl/machine/SemanticEnvironment.java" />
+        <option value="$PROJECT_DIR$/src/org/d0sl/machine/LocalCalculationStack.java" />
+        <option value="$PROJECT_DIR$/src/org/d0sl/model/expression/Value.java" />
+        <option value="$PROJECT_DIR$/src/com/gav/semanticGoogleSheets/SemanticArrayList.java" />
+        <option value="$PROJECT_DIR$/src/com/gav/semanticGoogleSheets/AiGoogleSheets.java" />
+        <option value="$PROJECT_DIR$/src/com/gumirov/d0sl/benchmark/BenchmarkDSL.java" />
+        <option value="$PROJECT_DIR$/src/com/gumirov/d0sl/benchmark/main.java" />
+        <option value="$PROJECT_DIR$/src/com/gumirov/d0sl/benchmark/AIBenchmark.java" />
+        <option value="$PROJECT_DIR$/src/org/d0sl/machine/CalculationStack.java" />
+        <option value="$PROJECT_DIR$/src/org/d0sl/domain/DomainLibrary.java" />
+        <option value="$PROJECT_DIR$/src/org/d0sl/machine/LocalSemanticMachine.java" />
+        <option value="$PROJECT_DIR$/src/com/gav/semanticGoogleSheets/ArrayListDSL.java" />
+        <option value="$PROJECT_DIR$/src/com/gav/semanticGoogleSheets/main.java" />
+        <option value="$PROJECT_DIR$/src/com/gav/semanticGoogleSheets/HashMapDSL.java" />
+        <option value="$PROJECT_DIR$/src/com/gav/semanticGoogleSheets/SemanticHashMap.java" />
+        <option value="$PROJECT_DIR$/src/com/gav/semanticGoogleSheets/Row.java" />
+        <option value="$PROJECT_DIR$/src/com/gav/semanticGoogleSheets/SemanticGoogleSheetsDSL.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SemanticGoogleSheets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SemanticGoogleSheets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SemanticGoogleSheets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SemanticGoogleSheets" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SemanticGoogleSheets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SemanticGoogleSheets" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SemanticGoogleSheets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SemanticGoogleSheets" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="semanticGoogleSheets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SemanticGoogleSheets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SemanticGoogleSheets" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="benchmark" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SemanticGoogleSheets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SemanticGoogleSheets" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="d0sl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SemanticGoogleSheets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SemanticGoogleSheets" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="d0sl" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SemanticGoogleSheets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SemanticGoogleSheets" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="d0sl" type="462c0819:PsiDirectoryNode" />
+              <item name="machine" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="true" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550411621872" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SemanticGoogleSheetsCoreTests" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\gav\tmp\SemanticGoogleSheets\lib" />
+      <recent name="C:\Users\gav\tmp\SemanticGoogleSheets\src\org" />
+      <recent name="C:\Users\gav\tmp\SemanticGoogleSheets\src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.main">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gumirov.d0sl.benchmark.main" />
+      <module name="SemanticGoogleSheets" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gumirov.d0sl.benchmark.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gav.semanticGoogleSheets.main" />
+      <module name="SemanticGoogleSheets" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gav.semanticGoogleSheets.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.main" />
+        <item itemvalue="Application.main (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cb1026e9-1710-4c0c-a4e9-7ec7cd1e2d4b" name="Default Changelist" comment="" />
+      <created>1546332480820</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1546332480820</updated>
+      <workItem from="1546332484160" duration="7155000" />
+      <workItem from="1546403495827" duration="292000" />
+      <workItem from="1546406995926" duration="4963000" />
+      <workItem from="1546505036032" duration="2283000" />
+      <workItem from="1546534833771" duration="294000" />
+      <workItem from="1546679206272" duration="11000" />
+      <workItem from="1547713246515" duration="1658000" />
+      <workItem from="1547885696988" duration="23711000" />
+      <workItem from="1548399141184" duration="4929000" />
+      <workItem from="1548572892739" duration="4421000" />
+      <workItem from="1549172138992" duration="732000" />
+      <workItem from="1549194909772" duration="594000" />
+      <workItem from="1550380194858" duration="15299000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="66342000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.141258" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3293348" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.89824945" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32822758" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08635394" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3293348" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3336945" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978564" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32822758" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/org/d0sl/model/expression/NumericConstant.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/google-api-client-1.23.0.jar!/com/google/api/client/googleapis/auth/oauth2/GoogleAuthorizationCodeFlow.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#8133#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/google-api-client-1.23.0.jar!/com/google/api/client/googleapis/auth/oauth2/GoogleClientSecrets.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/google-http-client-1.23.0.jar!/com/google/api/client/util/Preconditions.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/google-http-client-1.23.0.jar!/com/google/api/client/repackaged/com/google/common/base/Preconditions.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="554" column="13" selection-start-line="554" selection-start-column="13" selection-end-line="554" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/d0sl/base/BaseLibrary.java" />
+    <entry file="file://$PROJECT_DIR$/src/org/d0sl/base/BaseFunction.java" />
+    <entry file="file://$PROJECT_DIR$/src/org/d0sl/machine/SemanticMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="28" column="7" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/d0sl/model/SemanticModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/d0sl/examples/chess/ChessDSL.java" />
+    <entry file="file://$PROJECT_DIR$/src/org/d0sl/machine/SemanticCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/d0sl/machine/PredicateDescriptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/d0sl/machine/ModelDescriptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/d0sl/machine/LocalSemanticRegistry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/d0sl/machine/SemanticException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/d0sl/machine/LocalSemanticEnvironment.java" />
+    <entry file="file://$PROJECT_DIR$/src/org/d0sl/machine/LocalCalculationStack.java" />
+    <entry file="file://$PROJECT_DIR$/src/org/d0sl/xml/SerializationException.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/d0sl/model/FunctionCall.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/d0sl/model/expression/Or.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/d0sl/model/ArgumentDef.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/d0sl/xml/XMLSerializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="832">
+          <caret line="548" column="30" selection-start-line="548" selection-start-column="30" selection-end-line="548" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/d0sl/machine/SemanticEnvironment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="12" column="92" selection-start-line="12" selection-start-column="92" selection-end-line="12" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/google-api-services-sheets-v4-rev516-1.23.0.jar!/com/google/api/services/sheets/v4/model/AppendCellsRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/d0sl/model/expression/SemanticValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="106" column="13" selection-start-line="106" selection-start-column="13" selection-end-line="106" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/d0sl/model/expression/Value.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+          <folding>
+            <element signature="e#276#277#0" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+            <element signature="e#435#436#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/d0sl/model/expression/ForAll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/d0sl/model/expression/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/ClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="859" column="28" selection-start-line="859" selection-start-column="28" selection-end-line="859" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/d0sl/machine/SemanticModelFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gav/semanticGoogleSheets/AiGoogleSheets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gumirov/d0sl/benchmark/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11934">
+          <caret line="733" column="33" selection-end-line="769" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gumirov/d0sl/benchmark/BenchmarkDSL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="45" column="1" selection-end-line="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/d0sl/model/expression/And.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+          <folding>
+            <element signature="e#516#517#0" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gumirov/d0sl/benchmark/AIBenchmark.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/d0sl/model/PredicateDef.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="55" column="16" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
+          <folding>
+            <element signature="e#1706#1707#0" expanded="true" />
+            <element signature="e#1760#1761#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/d0sl/machine/CalculationStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="147" column="55" selection-start-line="147" selection-start-column="55" selection-end-line="147" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4071#4072#0" expanded="true" />
+            <element signature="e#4126#4127#0" expanded="true" />
+            <element signature="e#4715#4716#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/d0sl/model/expression/ExpressionType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gav/semanticGoogleSheets/SemanticArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="37" lean-forward="true" selection-start-column="37" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/d0sl/model/expression/NumericTerm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+          <folding>
+            <element signature="e#666#667#0" expanded="true" />
+            <element signature="e#708#709#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/d0sl/model/BaseObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gav/semanticGoogleSheets/ArrayListDSL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1939#1940#0" expanded="true" />
+            <element signature="e#2000#2001#0" expanded="true" />
+            <element signature="e#2695#2696#0" expanded="true" />
+            <element signature="e#2743#2744#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gav/semanticGoogleSheets/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1857#1858#0" expanded="true" />
+            <element signature="e#1884#1885#0" expanded="true" />
+            <element signature="e#1929#1930#0" expanded="true" />
+            <element signature="e#1957#1958#0" expanded="true" />
+            <element signature="e#53124#53125#0" expanded="true" />
+            <element signature="e#53157#53158#0" expanded="true" />
+            <element signature="e#53206#53207#0" expanded="true" />
+            <element signature="e#53238#53239#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/d0sl/machine/LocalSemanticMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1602">
+          <caret line="148" column="43" selection-start-line="148" selection-start-column="43" selection-end-line="148" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gav/semanticGoogleSheets/HashMapDSL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#596#597#0" expanded="true" />
+            <element signature="e#655#656#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gav/semanticGoogleSheets/SemanticHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="49" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gav/semanticGoogleSheets/Row.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/d0sl/domain/DomainLibrary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="179" column="30" selection-start-line="179" selection-start-column="30" selection-end-line="179" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gav/semanticGoogleSheets/SemanticGoogleSheetsDSL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="147" column="20" selection-start-line="147" selection-start-column="20" selection-end-line="147" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5871#5872#0" expanded="true" />
+            <element signature="e#5919#5920#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>SemanticGoogleSheets:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>gradle-wrapper</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>SemanticGoogleSheets</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>log4j-core-2.11.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
