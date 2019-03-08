@@ -2,36 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb1026e9-1710-4c0c-a4e9-7ec7cd1e2d4b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/SemanticGoogleSheets_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gav/semanticGoogleSheets/SemanticHashMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gumirov/d0sl/benchmark/AIBenchmark.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gumirov/d0sl/benchmark/BenchmarkDSL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gumirov/d0sl/benchmark/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/SemanticGoogleSheets_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/SemanticGoogleSheets_jar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SemanticGoogleSheets/com/gav/semanticGoogleSheets/main$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SemanticGoogleSheets/com/gav/semanticGoogleSheets/main$1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SemanticGoogleSheets/com/gav/semanticGoogleSheets/main$1$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SemanticGoogleSheets/com/gav/semanticGoogleSheets/main$1$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SemanticGoogleSheets/com/gav/semanticGoogleSheets/main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SemanticGoogleSheets/com/gav/semanticGoogleSheets/main$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SemanticGoogleSheets/com/gav/semanticGoogleSheets/main$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SemanticGoogleSheets/com/gav/semanticGoogleSheets/main$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SemanticGoogleSheets/com/gav/semanticGoogleSheets/main$3$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SemanticGoogleSheets/com/gav/semanticGoogleSheets/main$3$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SemanticGoogleSheets/com/gav/semanticGoogleSheets/main$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SemanticGoogleSheets/com/gav/semanticGoogleSheets/main$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SemanticGoogleSheets/com/gav/semanticGoogleSheets/main$4$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SemanticGoogleSheets/com/gav/semanticGoogleSheets/main$4$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SemanticGoogleSheets/com/gav/semanticGoogleSheets/main$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SemanticGoogleSheets/com/gav/semanticGoogleSheets/main$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SemanticGoogleSheets/com/gav/semanticGoogleSheets/main$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SemanticGoogleSheets/com/gav/semanticGoogleSheets/main$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SemanticGoogleSheets/com/gav/semanticGoogleSheets/main$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SemanticGoogleSheets/com/gav/semanticGoogleSheets/main$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SemanticGoogleSheets/com/gav/semanticGoogleSheets/main$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SemanticGoogleSheets/com/gav/semanticGoogleSheets/main$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SemanticGoogleSheets/com/gav/semanticGoogleSheets/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SemanticGoogleSheets/com/gav/semanticGoogleSheets/main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SemanticGoogleSheets/org/d0sl/machine/LocalSemanticMachine$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SemanticGoogleSheets/org/d0sl/machine/LocalSemanticMachine$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SemanticGoogleSheets/org/d0sl/machine/LocalSemanticMachine$Calculator$1RangeCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SemanticGoogleSheets/org/d0sl/machine/LocalSemanticMachine$Calculator$1RangeCalculator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SemanticGoogleSheets/org/d0sl/machine/LocalSemanticMachine$Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SemanticGoogleSheets/org/d0sl/machine/LocalSemanticMachine$Calculator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SemanticGoogleSheets/org/d0sl/machine/LocalSemanticMachine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SemanticGoogleSheets/org/d0sl/machine/LocalSemanticMachine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gav/semanticGoogleSheets/ArrayListDSL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gav/semanticGoogleSheets/ArrayListDSL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gav/semanticGoogleSheets/HashMapDSL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gav/semanticGoogleSheets/HashMapDSL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gav/semanticGoogleSheets/Row.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gav/semanticGoogleSheets/Row.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gav/semanticGoogleSheets/SemanticGoogleSheetsDSL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gav/semanticGoogleSheets/SemanticGoogleSheetsDSL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gav/semanticGoogleSheets/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gav/semanticGoogleSheets/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/d0sl/domain/DomainLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/d0sl/domain/DomainLibrary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/d0sl/machine/LocalSemanticMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/d0sl/machine/LocalSemanticMachine.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,18 +17,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/gav/semanticGoogleSheets/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
+            <state relative-caret-position="120">
               <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1857#1858#0" expanded="true" />
-                <element signature="e#1884#1885#0" expanded="true" />
-                <element signature="e#1929#1930#0" expanded="true" />
-                <element signature="e#1957#1958#0" expanded="true" />
-                <element signature="e#53124#53125#0" expanded="true" />
-                <element signature="e#53157#53158#0" expanded="true" />
-                <element signature="e#53206#53207#0" expanded="true" />
-                <element signature="e#53238#53239#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -65,31 +29,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/gav/semanticGoogleSheets/SemanticGoogleSheetsDSL.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="501">
-              <caret line="147" column="20" selection-start-line="147" selection-start-column="20" selection-end-line="147" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#5871#5872#0" expanded="true" />
-                <element signature="e#5919#5920#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/d0sl/domain/DomainLibrary.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="536">
-              <caret line="179" column="30" selection-start-line="179" selection-start-column="30" selection-end-line="179" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/d0sl/machine/LocalSemanticMachine.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1602">
-              <caret line="148" column="43" selection-start-line="148" selection-start-column="43" selection-end-line="148" selection-end-column="43" />
+            <state relative-caret-position="751">
+              <caret line="170" column="49" selection-start-line="170" selection-start-column="49" selection-end-line="170" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -168,64 +109,62 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="SemanticGoogleSheets" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SemanticGoogleSheets" type="462c0819:PsiDirectoryNode" />
+              <item name="SemanticGoogleSheets-git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SemanticGoogleSheets-git" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SemanticGoogleSheets" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SemanticGoogleSheets" type="462c0819:PsiDirectoryNode" />
+              <item name="SemanticGoogleSheets-git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SemanticGoogleSheets-git" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SemanticGoogleSheets-git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SemanticGoogleSheets-git" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SemanticGoogleSheets-git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SemanticGoogleSheets-git" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="SemanticGoogleSheets_jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SemanticGoogleSheets-git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SemanticGoogleSheets-git" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SemanticGoogleSheets" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SemanticGoogleSheets" type="462c0819:PsiDirectoryNode" />
+              <item name="SemanticGoogleSheets-git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SemanticGoogleSheets-git" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SemanticGoogleSheets" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SemanticGoogleSheets" type="462c0819:PsiDirectoryNode" />
+              <item name="SemanticGoogleSheets-git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SemanticGoogleSheets-git" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="semanticGoogleSheets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SemanticGoogleSheets" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SemanticGoogleSheets" type="462c0819:PsiDirectoryNode" />
+              <item name="SemanticGoogleSheets-git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SemanticGoogleSheets-git" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="benchmark" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SemanticGoogleSheets" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SemanticGoogleSheets" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="d0sl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SemanticGoogleSheets" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SemanticGoogleSheets" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="d0sl" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SemanticGoogleSheets" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SemanticGoogleSheets" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="d0sl" type="462c0819:PsiDirectoryNode" />
-              <item name="machine" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -235,8 +174,8 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550411621872" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SemanticGoogleSheetsCoreTests" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552045309677" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -357,17 +296,18 @@
       <workItem from="1549172138992" duration="732000" />
       <workItem from="1549194909772" duration="594000" />
       <workItem from="1550380194858" duration="15299000" />
+      <workItem from="1550414992956" duration="684000" />
+      <workItem from="1552045022947" duration="231000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66342000" />
+    <option name="totallyTimeSpent" value="67257000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.141258" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1444563" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -746,34 +686,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/gav/semanticGoogleSheets/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1857#1858#0" expanded="true" />
-            <element signature="e#1884#1885#0" expanded="true" />
-            <element signature="e#1929#1930#0" expanded="true" />
-            <element signature="e#1957#1958#0" expanded="true" />
-            <element signature="e#53124#53125#0" expanded="true" />
-            <element signature="e#53157#53158#0" expanded="true" />
-            <element signature="e#53206#53207#0" expanded="true" />
-            <element signature="e#53238#53239#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/d0sl/machine/LocalSemanticMachine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1602">
-          <caret line="148" column="43" selection-start-line="148" selection-start-column="43" selection-end-line="148" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gav/semanticGoogleSheets/HashMapDSL.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -816,19 +728,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/d0sl/domain/DomainLibrary.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
+        <state>
           <caret line="179" column="30" selection-start-line="179" selection-start-column="30" selection-end-line="179" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/d0sl/machine/LocalSemanticMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="148" column="43" selection-start-line="148" selection-start-column="43" selection-end-line="148" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gav/semanticGoogleSheets/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/gav/semanticGoogleSheets/SemanticGoogleSheetsDSL.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="147" column="20" selection-start-line="147" selection-start-column="20" selection-end-line="147" selection-end-column="20" />
+        <state relative-caret-position="751">
+          <caret line="170" column="49" selection-start-line="170" selection-start-column="49" selection-end-line="170" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#5871#5872#0" expanded="true" />
-            <element signature="e#5919#5920#0" expanded="true" />
           </folding>
         </state>
       </provider>

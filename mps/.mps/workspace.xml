@@ -1,0 +1,816 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarksTool">
+    <option name="myTreeState">
+      <TreeState />
+    </option>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="21237941-68ff-43e6-93ce-99cd29072607" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/SemanticGoogleSheets/solutions/SemanticGoogleSheetsSolution/models/GoogleSheetsModel.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/artifacts/SemanticGoogleSheets_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/artifacts/SemanticGoogleSheets_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ConsoleHistory">
+    <option name="tabs">
+      <list>
+        <TabState>
+          <option name="title" value="Console" />
+          <tab>
+            <model ref="13cfb46b-74e2-491a-accb-e25dc5142f4d/r:c665a5ab-b4b5-4177-9dc7-d81500b30312(TempModule13cfb46b-74e2-491a-accb-e25dc5142f4d/TempModel_434622915353777)">
+              <persistence version="9" />
+              <languages>
+                <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
+              </languages>
+              <imports />
+              <registry>
+                <language id="de1ad86d-6e50-4a02-b306-d4d17f64c375" name="jetbrains.mps.console.base">
+                  <concept id="1583916890557930028" name="jetbrains.mps.console.base.structure.ConsoleRoot" flags="ng" index="aymSD">
+                    <child id="1583916890557930415" name="history" index="aymYE" />
+                    <child id="1583916890557930417" name="commandHolder" index="aymYO" />
+                    <child id="9025248442620242919" name="cursor" index="1PhJh3" />
+                  </concept>
+                  <concept id="5758176878586720817" name="jetbrains.mps.console.base.structure.CommandHolderRef" flags="ng" index="2_V_lH">
+                    <reference id="5758176878586720818" name="target" index="2_V_lI" />
+                  </concept>
+                  <concept id="351968380916615243" name="jetbrains.mps.console.base.structure.CommandHolder" flags="ng" index="2Clz$F" />
+                  <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
+                </language>
+              </registry>
+              <node concept="aymSD" id="69IirKpE9YE">
+                <node concept="3balQm" id="69IirKpE9YF" role="aymYE" />
+                <node concept="2Clz$F" id="69IirKpE9YG" role="aymYO" />
+                <node concept="2_V_lH" id="69IirKpE9YH" role="1PhJh3">
+                  <ref role="2_V_lI" node="69IirKpE9YG" resolve="CommandHolder" />
+                </node>
+              </node>
+            </model>
+          </tab>
+        </TabState>
+      </list>
+    </option>
+  </component>
+  <component name="DefaultSearchOptions3">
+    <search_options>
+      <finders>
+        <finders />
+      </finders>
+      <scope>
+        <scope_type scope_type="PROJECT" module="&lt;default&gt;" model="&lt;default&gt;" />
+      </scope>
+      <view>
+        <flags show_one_result="true" new_tab="false" />
+      </view>
+    </search_options>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="mps://node://SemanticGoogleSheets/SemanticGoogleSheets.GoogleSheetsModel/SemanticGoogleSheets">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+              <memento saveSessionState="false" viewPositionX="0" viewPositionY="40">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretX" value="75" />
+                    <property name="caretXRelative" value="0" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="Constant_ifymu6_a">
+                      <node node_reference="r:eb97c915-66e8-412d-9864-a2075503f0f9(SemanticGoogleSheets.GoogleSheetsModel)/7330049203208814954" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <errorMarkers>
+                  <errorMarker text="" propertyCell="true" cellId="property_value">
+                    <node node_reference="r:eb97c915-66e8-412d-9864-a2075503f0f9(SemanticGoogleSheets.GoogleSheetsModel)/7330049203208258482" />
+                  </errorMarker>
+                  <errorMarker text="" propertyCell="true" cellId="property_value">
+                    <node node_reference="r:eb97c915-66e8-412d-9864-a2075503f0f9(SemanticGoogleSheets.GoogleSheetsModel)/7330049203208261335" />
+                  </errorMarker>
+                  <errorMarker text="" propertyCell="true" cellId="property_value">
+                    <node node_reference="r:eb97c915-66e8-412d-9864-a2075503f0f9(SemanticGoogleSheets.GoogleSheetsModel)/7092687535388336361" />
+                  </errorMarker>
+                  <errorMarker text="" propertyCell="true" cellId="property_value">
+                    <node node_reference="r:eb97c915-66e8-412d-9864-a2075503f0f9(SemanticGoogleSheets.GoogleSheetsModel)/7330049203208271510" />
+                  </errorMarker>
+                  <errorMarker text="" propertyCell="true" cellId="property_value">
+                    <node node_reference="r:eb97c915-66e8-412d-9864-a2075503f0f9(SemanticGoogleSheets.GoogleSheetsModel)/7330049203208255950" />
+                  </errorMarker>
+                  <errorMarker text="" propertyCell="true" cellId="property_value">
+                    <node node_reference="r:eb97c915-66e8-412d-9864-a2075503f0f9(SemanticGoogleSheets.GoogleSheetsModel)/7330049203208691282" />
+                  </errorMarker>
+                  <errorMarker text="" propertyCell="true" cellId="property_value">
+                    <node node_reference="r:eb97c915-66e8-412d-9864-a2075503f0f9(SemanticGoogleSheets.GoogleSheetsModel)/7330049203208356595" />
+                  </errorMarker>
+                  <errorMarker text="" propertyCell="true" cellId="property_value">
+                    <node node_reference="r:eb97c915-66e8-412d-9864-a2075503f0f9(SemanticGoogleSheets.GoogleSheetsModel)/7330049203208679582" />
+                  </errorMarker>
+                </errorMarkers>
+                <transactionalProperties />
+                <foldable />
+                <restoreAlways />
+              </memento>
+              <inspectorMemento currentlyEditedNode="r:eb97c915-66e8-412d-9864-a2075503f0f9(SemanticGoogleSheets.GoogleSheetsModel)/7330049203208814954" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable />
+                <restoreAlways />
+                <enabledHints />
+              </inspectorMemento>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="mps://node://SemanticGoogleSheets/SemanticGoogleSheets.GoogleSheetsModel/HashMapDSL">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+              <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretX" value="175" />
+                    <property name="caretXRelative" value="100" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="property_name">
+                      <node node_reference="r:eb97c915-66e8-412d-9864-a2075503f0f9(SemanticGoogleSheets.GoogleSheetsModel)/6985554283975946144" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable />
+                <restoreAlways />
+              </memento>
+              <inspectorMemento currentlyEditedNode="r:eb97c915-66e8-412d-9864-a2075503f0f9(SemanticGoogleSheets.GoogleSheetsModel)/7330049203208814954" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable />
+                <restoreAlways />
+                <enabledHints />
+              </inspectorMemento>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="previewSemanticGoogleSheets.GoogleSheetsModel@0/SemanticGoogleSheets.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="996">
+              <caret line="1114" column="39" lean-forward="true" selection-start-line="1114" selection-start-column="39" selection-end-line="1114" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MPSBookmarkManager">
+    <option name="myBookmarkInfos">
+      <array>
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+      </array>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectPluginManager">
+    <option name="pluginsState">
+      <option name="jetbrains.mps.baseLanguage.lightweightdsl.pluginSolution.plugin.PluginSolution_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="jetbrains.mps.editor.contextActionsTool.pluginSolution.plugin.PluginSolution_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="jetbrains.mps.execution.configurations.implementation.plugin.plugin.Plugin_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="jetbrains.mps.execution.configurations.pluginSolution.plugin.PluginSolution_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="jetbrains.mps.ide.actions.Ide_ProjectPlugin">
+        <value>
+          <PluginState>
+            <option name="myComponentsState">
+              <list>
+                <ComponentState>
+                  <option name="first" value="jetbrains.mps.ide.actions.BehaviorDialogsPersistentOptions_PreferencesComponent" />
+                  <params>
+                    <option name="addReturnsOnImplement" value="false" />
+                    <option name="sortAlphabetically" value="false" />
+                    <option name="removeAttributes" value="true" />
+                  </params>
+                </ComponentState>
+              </list>
+            </option>
+          </PluginState>
+        </value>
+      </option>
+      <option name="jetbrains.mps.ide.devkit.actions.Mpsdevkit_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="jetbrains.mps.ide.make.actions.Make_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="jetbrains.mps.vcs.mergehints.plugin.plugin.Plugin_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+    </option>
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="9ab4af9c-bb6c-410d-87bd-fee58b9c5a52" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SemanticGoogleSheets" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:eb97c915-66e8-412d-9864-a2075503f0f9(SemanticGoogleSheets.GoogleSheetsModel) in IdeaFile[file://C:/Users/gav/tmp/SemanticGoogleSheets-git/mps/SemanticGoogleSheets/solutions/SemanticGoogleSheetsSolution/models/GoogleSheetsModel.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="9ab4af9c-bb6c-410d-87bd-fee58b9c5a52" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="9ab4af9c-bb6c-410d-87bd-fee58b9c5a52" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SemanticGoogleSheets" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <SELECTED>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="9ab4af9c-bb6c-410d-87bd-fee58b9c5a52" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stubs" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </SELECTED>
+        </subPane>
+      </pane>
+      <pane id="Favorites" />
+      <pane id="FileSystem" />
+    </panes>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Node SemanticGoogleSheets" type="Java Application" factoryName="Java" temporary="true">
+      <myNode>
+        <MyState>
+          <option name="myNodePointer" value="r:eb97c915-66e8-412d-9864-a2075503f0f9(SemanticGoogleSheets.GoogleSheetsModel)/513661590775722029" />
+          <option name="myNodeText" value="SemanticGoogleSheets.GoogleSheetsModel.SemanticGoogleSheets" />
+        </MyState>
+      </myNode>
+      <myRunParameters>
+        <MyState>
+          <option name="myJavaRunParameters">
+            <JavaRunParameters>
+              <option name="jrePath" />
+              <option name="programParameters" />
+              <option name="useAlternativeJre" value="false" />
+              <option name="vmOptions" />
+              <option name="workingDirectory" value="C:\Program Files\JetBrains\MPS 2018.3" />
+            </JavaRunParameters>
+          </option>
+        </MyState>
+      </myRunParameters>
+      <method v="2">
+        <option name="jetbrains.mps.execution.configurations.pluginSolution.plugin.MakeNodePointers_BeforeTask" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Java Application.Node SemanticGoogleSheets" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1748401" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Model Checker" />
+      <window_info anchor="bottom" id="Console" weight="0.32905984" />
+      <window_info anchor="bottom" id="Bookmarks" />
+      <window_info anchor="bottom" id="Migration" />
+      <window_info anchor="bottom" id="Menu Trace" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Classpath Explorer" />
+      <window_info anchor="bottom" id="Usages" />
+      <window_info anchor="bottom" id="Node Explorer" />
+      <window_info anchor="bottom" id="Module Dependencies" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Generation Tracer" />
+      <window_info anchor="bottom" id="Cell Explorer" />
+      <window_info anchor="bottom" id="Messages" weight="0.32804233" />
+      <window_info anchor="bottom" id="Typechecker State" />
+      <window_info anchor="bottom" id="RefactoringView" />
+      <window_info anchor="bottom" id="Inspector" side_tool="true" />
+      <window_info anchor="bottom" id="Dependencies Viewer" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32592592" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Class Hierarchy" />
+      <window_info anchor="right" id="Typesystem Trace" />
+      <window_info anchor="right" id="Supertypes" />
+      <window_info anchor="right" id="Context Actions" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="UsagesViewTool">
+    <version id="1" />
+    <tabs />
+    <default_view_options>
+      <options category_option="false" module_option="true" model_option="true" root_option="true" path_option="false" count_option="true" info_option="true" view_searched_nodes_option="true" group_searched_nodes_option="true" autoscroll_option="false" />
+    </default_view_options>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="mps://node://SemanticGoogleSheets/SemanticGoogleSheets.GoogleSheetsModel/HashMapDSL">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="175" />
+                <property name="caretXRelative" value="100" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name">
+                  <node node_reference="r:eb97c915-66e8-412d-9864-a2075503f0f9(SemanticGoogleSheets.GoogleSheetsModel)/6985554283975946144" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:eb97c915-66e8-412d-9864-a2075503f0f9(SemanticGoogleSheets.GoogleSheetsModel)/7330049203208814954" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://SemanticGoogleSheets/com.gav.semanticGoogleSheets@java_stub/HashMapDSL">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState" editorFocused="true">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="25" />
+                <property name="caretXRelative" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name">
+                  <node node_reference="9ab4af9c-bb6c-410d-87bd-fee58b9c5a52/java:com.gav.semanticGoogleSheets(SemanticGoogleSheets/)/7092687535388329086" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_fao2ea_a">
+                  <node node_reference="9ab4af9c-bb6c-410d-87bd-fee58b9c5a52/java:com.gav.semanticGoogleSheets(SemanticGoogleSheets/)/~HashMapDSL.print%28com.gav.semanticGoogleSheets.SemanticHashMap%29:boolean" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="HAAC_refNodeList_annotation">
+                  <node node_reference="9ab4af9c-bb6c-410d-87bd-fee58b9c5a52/java:com.gav.semanticGoogleSheets(SemanticGoogleSheets/)/~HashMapDSL.print%28com.gav.semanticGoogleSheets.SemanticHashMap%29:boolean" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_fao2ea_a">
+                  <node node_reference="9ab4af9c-bb6c-410d-87bd-fee58b9c5a52/java:com.gav.semanticGoogleSheets(SemanticGoogleSheets/)/~HashMapDSL.setStringValue%28com.gav.semanticGoogleSheets.SemanticHashMap,java.lang.String,java.lang.String%29:boolean" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="HAAC_refNodeList_annotation">
+                  <node node_reference="9ab4af9c-bb6c-410d-87bd-fee58b9c5a52/java:com.gav.semanticGoogleSheets(SemanticGoogleSheets/)/~HashMapDSL.setStringValue%28com.gav.semanticGoogleSheets.SemanticHashMap,java.lang.String,java.lang.String%29:boolean" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_fao2ea_a">
+                  <node node_reference="9ab4af9c-bb6c-410d-87bd-fee58b9c5a52/java:com.gav.semanticGoogleSheets(SemanticGoogleSheets/)/~HashMapDSL.getStringValue%28com.gav.semanticGoogleSheets.SemanticHashMap,java.lang.String%29:java.lang.String" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="HAAC_refNodeList_annotation">
+                  <node node_reference="9ab4af9c-bb6c-410d-87bd-fee58b9c5a52/java:com.gav.semanticGoogleSheets(SemanticGoogleSheets/)/~HashMapDSL.getStringValue%28com.gav.semanticGoogleSheets.SemanticHashMap,java.lang.String%29:java.lang.String" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_fao2ea_a">
+                  <node node_reference="9ab4af9c-bb6c-410d-87bd-fee58b9c5a52/java:com.gav.semanticGoogleSheets(SemanticGoogleSheets/)/~HashMapDSL.setNumericValue%28com.gav.semanticGoogleSheets.SemanticHashMap,java.lang.String,double%29:boolean" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="HAAC_refNodeList_annotation">
+                  <node node_reference="9ab4af9c-bb6c-410d-87bd-fee58b9c5a52/java:com.gav.semanticGoogleSheets(SemanticGoogleSheets/)/~HashMapDSL.setNumericValue%28com.gav.semanticGoogleSheets.SemanticHashMap,java.lang.String,double%29:boolean" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_fao2ea_a">
+                  <node node_reference="9ab4af9c-bb6c-410d-87bd-fee58b9c5a52/java:com.gav.semanticGoogleSheets(SemanticGoogleSheets/)/~HashMapDSL.getNumericValue%28com.gav.semanticGoogleSheets.SemanticHashMap,java.lang.String%29:double" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="HAAC_refNodeList_annotation">
+                  <node node_reference="9ab4af9c-bb6c-410d-87bd-fee58b9c5a52/java:com.gav.semanticGoogleSheets(SemanticGoogleSheets/)/~HashMapDSL.getNumericValue%28com.gav.semanticGoogleSheets.SemanticHashMap,java.lang.String%29:double" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_fao2ea_a">
+                  <node node_reference="9ab4af9c-bb6c-410d-87bd-fee58b9c5a52/java:com.gav.semanticGoogleSheets(SemanticGoogleSheets/)/~HashMapDSL.newHashMap%28%29:com.gav.semanticGoogleSheets.SemanticHashMap" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="HAAC_refNodeList_annotation">
+                  <node node_reference="9ab4af9c-bb6c-410d-87bd-fee58b9c5a52/java:com.gav.semanticGoogleSheets(SemanticGoogleSheets/)/~HashMapDSL.newHashMap%28%29:com.gav.semanticGoogleSheets.SemanticHashMap" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_fao2ea_a">
+                  <node node_reference="9ab4af9c-bb6c-410d-87bd-fee58b9c5a52/java:com.gav.semanticGoogleSheets(SemanticGoogleSheets/)/~HashMapDSL.&lt;init&gt;%28org.d0sl.machine.SemanticMachine%29" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="HAAC_refNodeList_annotation">
+                  <node node_reference="9ab4af9c-bb6c-410d-87bd-fee58b9c5a52/java:com.gav.semanticGoogleSheets(SemanticGoogleSheets/)/~HashMapDSL" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="HAAC_refNodeList_annotation">
+                  <node node_reference="9ab4af9c-bb6c-410d-87bd-fee58b9c5a52/java:com.gav.semanticGoogleSheets(SemanticGoogleSheets/)/~HashMapDSL" />
+                </cellIdElement>
+              </collapsedElement>
+            </restoreAlways>
+          </memento>
+          <inspectorMemento currentlyEditedNode="9ab4af9c-bb6c-410d-87bd-fee58b9c5a52/java:com.gav.semanticGoogleSheets(SemanticGoogleSheets/)/7092687535388329086" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://SemanticGoogleSheets/SemanticGoogleSheets.GoogleSheetsModel/SemanticGoogleSheetsDSL">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState" editorFocused="true">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="235" />
+                <property name="caretXRelative" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name">
+                  <node node_reference="r:eb97c915-66e8-412d-9864-a2075503f0f9(SemanticGoogleSheets.GoogleSheetsModel)/513661590775722053" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:eb97c915-66e8-412d-9864-a2075503f0f9(SemanticGoogleSheets.GoogleSheetsModel)/513661590775722053" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://SemanticGoogleSheets/com.gav.semanticGoogleSheets@java_stub/SemanticGoogleSheetsDSL">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState" editorFocused="true">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="49">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="175" />
+                <property name="caretXRelative" value="70" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="ALIAS_EDITOR_COMPONENT">
+                  <node node_reference="9ab4af9c-bb6c-410d-87bd-fee58b9c5a52/java:com.gav.semanticGoogleSheets(SemanticGoogleSheets/)/7092687535388329514" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_fao2ea_a">
+                  <node node_reference="9ab4af9c-bb6c-410d-87bd-fee58b9c5a52/java:com.gav.semanticGoogleSheets(SemanticGoogleSheets/)/~SemanticGoogleSheetsDSL.start%28java.lang.String,java.lang.String%29:boolean" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="HAAC_refNodeList_annotation">
+                  <node node_reference="9ab4af9c-bb6c-410d-87bd-fee58b9c5a52/java:com.gav.semanticGoogleSheets(SemanticGoogleSheets/)/~SemanticGoogleSheetsDSL.start%28java.lang.String,java.lang.String%29:boolean" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_fao2ea_a">
+                  <node node_reference="9ab4af9c-bb6c-410d-87bd-fee58b9c5a52/java:com.gav.semanticGoogleSheets(SemanticGoogleSheets/)/~SemanticGoogleSheetsDSL.plus%28java.lang.String,double%29:double" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="HAAC_refNodeList_annotation">
+                  <node node_reference="9ab4af9c-bb6c-410d-87bd-fee58b9c5a52/java:com.gav.semanticGoogleSheets(SemanticGoogleSheets/)/~SemanticGoogleSheetsDSL.plus%28java.lang.String,double%29:double" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_fao2ea_a">
+                  <node node_reference="9ab4af9c-bb6c-410d-87bd-fee58b9c5a52/java:com.gav.semanticGoogleSheets(SemanticGoogleSheets/)/~SemanticGoogleSheetsDSL.calcMean%28java.lang.String,double,double%29:double" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="HAAC_refNodeList_annotation">
+                  <node node_reference="9ab4af9c-bb6c-410d-87bd-fee58b9c5a52/java:com.gav.semanticGoogleSheets(SemanticGoogleSheets/)/~SemanticGoogleSheetsDSL.calcMean%28java.lang.String,double,double%29:double" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_fao2ea_a">
+                  <node node_reference="9ab4af9c-bb6c-410d-87bd-fee58b9c5a52/java:com.gav.semanticGoogleSheets(SemanticGoogleSheets/)/~SemanticGoogleSheetsDSL.writeTable%28java.lang.String,java.util.ArrayList%29:boolean" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="HAAC_refNodeList_annotation">
+                  <node node_reference="9ab4af9c-bb6c-410d-87bd-fee58b9c5a52/java:com.gav.semanticGoogleSheets(SemanticGoogleSheets/)/~SemanticGoogleSheetsDSL.writeTable%28java.lang.String,java.util.ArrayList%29:boolean" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_fao2ea_a">
+                  <node node_reference="9ab4af9c-bb6c-410d-87bd-fee58b9c5a52/java:com.gav.semanticGoogleSheets(SemanticGoogleSheets/)/~SemanticGoogleSheetsDSL.createRow%28double%29:org.d0sl.model.expression.List" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="HAAC_refNodeList_annotation">
+                  <node node_reference="9ab4af9c-bb6c-410d-87bd-fee58b9c5a52/java:com.gav.semanticGoogleSheets(SemanticGoogleSheets/)/~SemanticGoogleSheetsDSL.createRow%28double%29:org.d0sl.model.expression.List" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_fao2ea_a">
+                  <node node_reference="9ab4af9c-bb6c-410d-87bd-fee58b9c5a52/java:com.gav.semanticGoogleSheets(SemanticGoogleSheets/)/~SemanticGoogleSheetsDSL.createRange%28double%29:org.d0sl.model.expression.List" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="HAAC_refNodeList_annotation">
+                  <node node_reference="9ab4af9c-bb6c-410d-87bd-fee58b9c5a52/java:com.gav.semanticGoogleSheets(SemanticGoogleSheets/)/~SemanticGoogleSheetsDSL.createRange%28double%29:org.d0sl.model.expression.List" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_fao2ea_a">
+                  <node node_reference="9ab4af9c-bb6c-410d-87bd-fee58b9c5a52/java:com.gav.semanticGoogleSheets(SemanticGoogleSheets/)/~SemanticGoogleSheetsDSL.add%28double,double%29:boolean" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="HAAC_refNodeList_annotation">
+                  <node node_reference="9ab4af9c-bb6c-410d-87bd-fee58b9c5a52/java:com.gav.semanticGoogleSheets(SemanticGoogleSheets/)/~SemanticGoogleSheetsDSL.add%28double,double%29:boolean" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_fao2ea_a">
+                  <node node_reference="9ab4af9c-bb6c-410d-87bd-fee58b9c5a52/java:com.gav.semanticGoogleSheets(SemanticGoogleSheets/)/~SemanticGoogleSheetsDSL.getRangeAsList%28java.lang.String%29:org.d0sl.model.expression.List" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="HAAC_refNodeList_annotation">
+                  <node node_reference="9ab4af9c-bb6c-410d-87bd-fee58b9c5a52/java:com.gav.semanticGoogleSheets(SemanticGoogleSheets/)/~SemanticGoogleSheetsDSL.getRangeAsList%28java.lang.String%29:org.d0sl.model.expression.List" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_fao2ea_a">
+                  <node node_reference="9ab4af9c-bb6c-410d-87bd-fee58b9c5a52/java:com.gav.semanticGoogleSheets(SemanticGoogleSheets/)/~SemanticGoogleSheetsDSL.say%28java.lang.Object%29:boolean" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="HAAC_refNodeList_annotation">
+                  <node node_reference="9ab4af9c-bb6c-410d-87bd-fee58b9c5a52/java:com.gav.semanticGoogleSheets(SemanticGoogleSheets/)/~SemanticGoogleSheetsDSL.say%28java.lang.Object%29:boolean" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_fao2ea_a">
+                  <node node_reference="9ab4af9c-bb6c-410d-87bd-fee58b9c5a52/java:com.gav.semanticGoogleSheets(SemanticGoogleSheets/)/~SemanticGoogleSheetsDSL.getRowElementsAsSemanticArrayList%28com.gav.semanticGoogleSheets.Row%29:com.gav.semanticGoogleSheets.SemanticArrayList" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="HAAC_refNodeList_annotation">
+                  <node node_reference="9ab4af9c-bb6c-410d-87bd-fee58b9c5a52/java:com.gav.semanticGoogleSheets(SemanticGoogleSheets/)/~SemanticGoogleSheetsDSL.getRowElementsAsSemanticArrayList%28com.gav.semanticGoogleSheets.Row%29:com.gav.semanticGoogleSheets.SemanticArrayList" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_fao2ea_a">
+                  <node node_reference="9ab4af9c-bb6c-410d-87bd-fee58b9c5a52/java:com.gav.semanticGoogleSheets(SemanticGoogleSheets/)/~SemanticGoogleSheetsDSL.getRowElements%28com.gav.semanticGoogleSheets.Row%29:org.d0sl.model.expression.List" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="HAAC_refNodeList_annotation">
+                  <node node_reference="9ab4af9c-bb6c-410d-87bd-fee58b9c5a52/java:com.gav.semanticGoogleSheets(SemanticGoogleSheets/)/~SemanticGoogleSheetsDSL.getRowElements%28com.gav.semanticGoogleSheets.Row%29:org.d0sl.model.expression.List" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_fao2ea_a">
+                  <node node_reference="9ab4af9c-bb6c-410d-87bd-fee58b9c5a52/java:com.gav.semanticGoogleSheets(SemanticGoogleSheets/)/~SemanticGoogleSheetsDSL.getRange%28java.lang.String%29:org.d0sl.model.expression.List" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="HAAC_refNodeList_annotation">
+                  <node node_reference="9ab4af9c-bb6c-410d-87bd-fee58b9c5a52/java:com.gav.semanticGoogleSheets(SemanticGoogleSheets/)/~SemanticGoogleSheetsDSL.getRange%28java.lang.String%29:org.d0sl.model.expression.List" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_fao2ea_a">
+                  <node node_reference="9ab4af9c-bb6c-410d-87bd-fee58b9c5a52/java:com.gav.semanticGoogleSheets(SemanticGoogleSheets/)/~SemanticGoogleSheetsDSL.&lt;init&gt;%28org.d0sl.machine.SemanticMachine%29" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="HAAC_refNodeList_annotation">
+                  <node node_reference="9ab4af9c-bb6c-410d-87bd-fee58b9c5a52/java:com.gav.semanticGoogleSheets(SemanticGoogleSheets/)/~SemanticGoogleSheetsDSL" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="9ab4af9c-bb6c-410d-87bd-fee58b9c5a52/java:com.gav.semanticGoogleSheets(SemanticGoogleSheets/)/7092687535388329514" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://SemanticGoogleSheets/SemanticGoogleSheets.GoogleSheetsModel/SemanticGoogleSheets">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="40">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="75" />
+                <property name="caretXRelative" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_ifymu6_a">
+                  <node node_reference="r:eb97c915-66e8-412d-9864-a2075503f0f9(SemanticGoogleSheets.GoogleSheetsModel)/7330049203208814954" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers>
+              <errorMarker text="" propertyCell="true" cellId="property_value">
+                <node node_reference="r:eb97c915-66e8-412d-9864-a2075503f0f9(SemanticGoogleSheets.GoogleSheetsModel)/7330049203208258482" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="true" cellId="property_value">
+                <node node_reference="r:eb97c915-66e8-412d-9864-a2075503f0f9(SemanticGoogleSheets.GoogleSheetsModel)/7330049203208261335" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="true" cellId="property_value">
+                <node node_reference="r:eb97c915-66e8-412d-9864-a2075503f0f9(SemanticGoogleSheets.GoogleSheetsModel)/7092687535388336361" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="true" cellId="property_value">
+                <node node_reference="r:eb97c915-66e8-412d-9864-a2075503f0f9(SemanticGoogleSheets.GoogleSheetsModel)/7330049203208271510" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="true" cellId="property_value">
+                <node node_reference="r:eb97c915-66e8-412d-9864-a2075503f0f9(SemanticGoogleSheets.GoogleSheetsModel)/7330049203208255950" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="true" cellId="property_value">
+                <node node_reference="r:eb97c915-66e8-412d-9864-a2075503f0f9(SemanticGoogleSheets.GoogleSheetsModel)/7330049203208691282" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="true" cellId="property_value">
+                <node node_reference="r:eb97c915-66e8-412d-9864-a2075503f0f9(SemanticGoogleSheets.GoogleSheetsModel)/7330049203208356595" />
+              </errorMarker>
+              <errorMarker text="" propertyCell="true" cellId="property_value">
+                <node node_reference="r:eb97c915-66e8-412d-9864-a2075503f0f9(SemanticGoogleSheets.GoogleSheetsModel)/7330049203208679582" />
+              </errorMarker>
+            </errorMarkers>
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:eb97c915-66e8-412d-9864-a2075503f0f9(SemanticGoogleSheets.GoogleSheetsModel)/7330049203208814954" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -2,7 +2,6 @@
   <artifact type="jar" build-on-make="true" name="SemanticGoogleSheets:jar">
     <output-path>$PROJECT_DIR$/out/artifacts/SemanticGoogleSheets_jar</output-path>
     <root id="archive" name="SemanticGoogleSheets.jar">
-      <element id="module-output" name="SemanticGoogleSheets" />
       <element id="extracted-dir" path="$PROJECT_DIR$/lib/google-api-client-1.23.0.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$PROJECT_DIR$/lib/google-oauth-client-1.23.0.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$PROJECT_DIR$/lib/google-http-client-1.23.0.jar" path-in-jar="/" />
